@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.cv {
+    background-color: #ddd;
+    margin: 10px;
+    width: 800px;
+}
+
+.atas {
+    display: flex;
+    justify-content: start;
+    background-color: #333;
+    padding: 20px;
+}
+
+.gambar {
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.judul {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding: 5px;
+    background-color: black;
+}
+
+.menu a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.tentang {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.video {
+    text-align: center;
+}
+
+.audio {
+    text-align: center;
+}
+
+.pengalaman {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.pengalaman table {
+    width: 100%;
+}
+
+.hubungi {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.button {
+    background-color: aquamarine;
+}
+
+.bawah {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.keatas {
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+}

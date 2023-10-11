@@ -1,0 +1,109 @@
+<!--Retri Dela Puspita-->
+<!--121140116-->
+<!--RB-->
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 2 - RB</title>
+    <link rel="stylesheet" href="CSS_Dela.css">
+</head>
+
+<body>
+    <div class="cv" border="1">
+        <header class="atas" id="keatas">
+            <img src="Retri_Dela_Puspita.png" alt="Foto Saya" width="200" class="gambar">
+            <div class="judul">
+                <h1>Retri Dela Puspita</h1>
+                <h3>Mahasiswa Prodi Teknik Informatika Institut Teknologi Sumatera</h3>
+            </div>
+        </header>
+
+        <nav class="navbar">
+            <li class="menu"><a href="#tentang">Tentang</a></li>
+            <li class="menu"><a href="#pengalaman">Pengalaman</a></li>
+            <li class="menu"><a href="#hubungi">Hubungi</a></li>
+        </nav>
+
+        <div class="tentang">
+            <h2 id="tentang">Tentang Saya</h2>
+            <p>Mahasiswa Institut Teknologi Sumatera, Program Studi Teknik Informatika. Memiliki kemampuan pada desain aplikasi. Mampu bekerja secara mandiri maupun dalam tim untuk mencapai tujuan yang ditetapkan. Memiliki keinginan untuk mengembangkan kemampuan dalam bidang desain aplikasi dan coding pada industri IT.</p>
+            <div class="video">
+                <video src="Video_Dela.mp4" width="200" controls></video>
+            </div>
+            <div class="audio">
+                <audio src="Audio_Dela.mp3" controls></audio>
+            </div>
+        </div>
+
+        <div class="pengalaman">
+            <h2 id="pengalaman">Pengalaman</h2>
+            <table border="1" style="text-align: center;">
+                <tr>
+                    <th rowspan="2">No</th>
+                    <th rowspan="2">Posisi</th>
+                    <th rowspan="2">Bagian</th>
+                    <th rowspan="2">Kegiatan / Organisasi</th>
+                    <th colspan="2">Waktu</th>
+                </tr>
+                <tr>
+                    <th>Mulai</th>
+                    <th>Sampai</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Staff</td>
+                    <td>Pendanaan</td>
+                    <td>Code Color Run</td>
+                    <td>Sept 2023</td>
+                    <td>Sekarang</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mentor</td>
+                    <td>Kaderisasi</td>
+                    <td>LDOP Arithmatic 5.0</td>
+                    <td>Juni 2023</td>
+                    <td>Sekarang</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Staff</td>
+                    <td>Kewirausahaan</td>
+                    <td>Himpunan Mahasiswa Informatika</td>
+                    <td>April 2023</td>
+                    <td>Sekarang</td>
+                </tr>
+            </table>
+        </div>
+
+        <form action="Jawaban_Dela.php" method="post" class="hubungi">
+            <h2 id="hubungi">Hubungi saya</h2>
+                <label for="email">Email :</label>
+                <input type="text" placeholder="masukkan teks" id="email" name="email">
+                <p>Apakah sudah benar?</p>
+                <input type="radio" name="soal_a"> Iya <br>
+                <input type="radio" name="soal_a"> Tidak
+
+            <h2>Apakah sudah selesai?</h2>
+                <input type="checkbox" name="a" id="a" value="1"> Iya <br>
+                <input type="checkbox" name="a" id="a" value="2"> Tidak<br>
+                <input type="checkbox" name="a" id="a" value="3"> Belum tau
+                <br><br>
+            
+            <button class="button" type="submit">Kirim</button>
+        </form>
+
+        <footer class="bawah">
+            <nav>
+                <a href="#keatas" class="keatas"><h3>Tugas Praktikum 2 - RB</h3></a>
+            </nav>
+        </footer>
+
+    </div>
+</body>
+
+</html>
