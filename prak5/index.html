@@ -1,0 +1,46 @@
+<!--Retri Dela Puspita-->
+<!--121140116-->
+<!--RB-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <!-- Menghubungkan file CSS eksternal -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="output" class="output" readonly>
+        <div class="btn-container">
+            <button class="btn" onclick="appendToExpression('(')">(</button>
+            <button class="btn" onclick="appendToExpression(')')">)</button>
+            <button class="btn operator" onclick="clearDisplay()">C</button>
+            <button class="btn operator" onclick="calculatePercentage()">%</button>
+            <button class="btn" onclick="appendToExpression('7')">7</button>
+            <button class="btn" onclick="appendToExpression('8')">8</button>
+            <button class="btn" onclick="appendToExpression('9')">9</button>
+            <button class="btn operator" onclick="appendToExpression('/')">/</button>
+            <button class="btn" onclick="appendToExpression('4')">4</button>
+            <button class="btn" onclick="appendToExpression('5')">5</button>
+            <button class="btn" onclick="appendToExpression('6')">6</button>
+            <button class="btn operator" onclick="appendToExpression('*')">*</button>
+            <button class="btn" onclick="appendToExpression('1')">1</button>
+            <button class="btn" onclick="appendToExpression('2')">2</button>
+            <button class="btn" onclick="appendToExpression('3')">3</button>
+            <button class="btn operator" onclick="appendToExpression('-')">-</button>
+            <button class="btn" onclick="appendToExpression('0')">0</button>
+            <button class="btn" onclick="appendToExpression('.')">.</button>
+            <button class="btn operator" onclick="calculateResult()">=</button>
+            <button class="btn operator" onclick="appendToExpression('+')">+</button>
+        </div>
+    </div>
+    <!-- Menghubungkan file JavaScript eksternal -->
+    <script src="script.js"></script>
+</body>
+
+</html>
